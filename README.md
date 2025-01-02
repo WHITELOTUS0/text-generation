@@ -11,6 +11,9 @@ short_description: App for text generation
 
 # Text Generation App
 
+# Text Generation App
+![App Screenshot](screenshot.png)
+
 This Space demonstrates a basic text generation application built using FastAPI and the `transformers` library. It uses the `google/flan-t5-small` model, a powerful text-to-text generation model. You can try it out by sending a GET request to the `/generate` endpoint.
 
 ## How to Use
