@@ -2,7 +2,9 @@ from fastapi import FastAPI
 from transformers import pipeline
  
 # Create a new FastAPI app instance
-app = FastAPI()
+# NOTE - we configure docs_url to serve the interactive Docs at the root path
+# of the app. This way, we can use the docs as a landing page for the app on Spaces.
+app = FastAPI(docs_url="/")
  
 # Initialize the text generation pipeline
 # This function will be able to generate text
